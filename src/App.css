@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Spicy+Rice');
+@import url('https://fonts.googleapis.com/css?family=Mukta');
+.nav_menu_items_container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: antiquewhite;
+padding: 0;
+}
+.menu_left{
+width: 20%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.menu-logo{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2rem;
+  color: brown;
+  margin: 0;
+}
+.menu_left a{
+  text-decoration: none;
+}
+.menu_right{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Mukta', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 80%;
+}
+.menu_right a{
+  text-decoration: none;
+  color:gray;
+}
+.menu_right li{
+  list-style-type: none;
+}
+.menu_right a:hover{
+  color:brown;
+}
+.navmenu-items{
+  width: 15%;
+  position: relative;
+  margin: 0;
+}
+.navmenu-items a:active{
+  color: blue
+}
+.menu_link{
+  padding:10px;
+}
+.subnavmenu{
+  display: none;
+  position: absolute;
+  top: 42px;
+  left: 0;
+  right: 0;
+  background-color: white;
+  box-shadow: 2px 2px #888888;
+}
+.subnavmenu li{
+  list-style-type: none;
+}
+.subnavmenu a{
+  text-decoration: none;
+}
+.subnavmenu a:hover{
+  color:brown;
+}
+.isShown:hover .subnavmenu{
+  display: block;
+}
+.searchBar{
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.search-btn{
+  background-color: antiquewhite;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 5px;
+}
